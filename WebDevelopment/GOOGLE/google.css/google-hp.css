@@ -1,0 +1,172 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    color: #202124 !important;
+}
+
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+.nav a{
+    padding: 15px;
+    line-height: 24px;
+    vertical-align: middle;
+    outline: none;
+    font-size: 13px;
+}
+.nav a img{
+    width: 20px;
+}
+
+.sign-in{
+    padding: 15px;
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    line-height: 28px;
+    padding: 0 12px;
+    border-radius: 2px;
+    background-color: #4285f4;
+    color: white;
+    font-size: 13px;    
+    font-family: Arial, sans-serif;
+    margin-top: 10px;
+    
+}
+.center{
+    text-align: center;
+    
+}
+.center img{
+    margin-top: 90px;
+}
+.icons{
+   display: block;
+    max-width: 484px;
+    width: auto;
+    position: relative;
+    margin: 0px auto;
+    outline: none;
+    border: 2px solid white
+    
+}
+#search-text input{
+    width: 484px;
+    outline-color: rgb(3, 108, 219);
+    display: block;
+    height: 39px;
+    
+    background-color: transparent;
+    border: 1px solid silver;
+    border-radius: 40px;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+}
+
+.icons{
+    text-align: center;
+}
+.orta-butonlar{
+display: flex;
+margin: 0px 350px;
+padding: 18px 0px 0px;
+
+
+
+}
+
+.orta-butonlar button{
+width: 292px;
+height: 36px;
+padding: 0px 16px;
+background-color: #f8f9fa;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #f8f9fa;
+border: 1px solid #f8f9fa;
+border-radius: 4px;
+color: #3c4043;
+font-family: arial,sans-serif;
+font-size: 14px;
+margin: 11px 4px;
+padding: 0 16px;
+line-height: 27px;
+height: 36px;
+min-width: 54px;
+cursor: pointer;
+display: block;
+text-align: center;
+margin: 0px auto;
+
+
+}
+.orta-butonlar button{
+    text-align: center;
+    height: 36px;
+    line-height: 36px;
+    padding: 0px 16px;
+    margin: 11px 4px;
+    display: inline-block;
+    margin: 0px auto;
+    
+    
+
+
+
+}
+
+footer{
+    display: block;
+    height: 75px;
+    border: 1px rgb(218, 220, 224) solid;
+     
+    position: relative;  
+    background-color: rgb(242, 242, 242);
+    margin-top: 256px;
+    
+}
+.turkey{
+    color:rgba(0, 0, 0, 0.54);
+    border-top: 1px solid rgb(218, 220, 224);
+    border-bottom: 1px solid rgb(218, 220, 224);
+    padding: 0px 0px 0px 27px;
+    margin: 0px 0px 0px 8px;
+}
+.footer-left{
+    position: absolute;
+    bottom: 0px;
+    padding: 0px 0px 0px 27px;
+    margin: 0px;
+}
+
+.footer-right{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    padding: 0px 27px 0px 0px;
+}
+footer a{
+    color:rgba(0, 0, 0, 0.54);
+}
