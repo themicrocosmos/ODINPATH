@@ -1,11 +1,14 @@
+
+
+/* GENERAL SETTINGS */
+
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    text-decoration: none;
-    
-    
+    text-decoration: none;    
 }
+
 body{
     background-color:#181818;
 }
@@ -13,12 +16,17 @@ body{
 .flex-container{
     display: flex;
     flex-direction: column;
-    font-family: font-family: 'Roboto', sans-serif;
+    font-family:'Roboto', sans-serif;
 }
 
+
+
+/* ========== *****============ */
+
+/* TOP SECTION SETTINGS */
+
 .top-nav{
-    background-color: #fff;
-    background-color: #F9F9F9;
+
     background-color: #181818;
     padding: 0px 16px;
     height: 60px;
@@ -238,6 +246,7 @@ button{
     text-align: justify;
     font-family: 'Roboto' Arial, sans-serif ;
     color: white;
+    font-size: 15px;
 }
 .play-lists{
     display: block;
@@ -267,8 +276,21 @@ button{
     justify-content: flex-start;
     margin-left: 0px;
 }
+
+.sub-son-logo{
+    display: flex;
+    
+}
+
 a{
     color: white;
-    font-weight: 600;
+    font-weight: 400;
+    display: block;
+    position: relative;
+    right: 220px;
+    top: 20px;
+    font-size: 14px;
+
 }
+
 
